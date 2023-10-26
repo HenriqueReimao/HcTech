@@ -2,10 +2,16 @@ body{
     margin:0px;
 
 }
+
 .logo {
     width: 100px;
     height: 100px;
 }
+.img-perfil{
+    display: flex;
+    justify-content: end;
+}
+
 /* Estilo para o container grid */
 .template {
     display: grid;

@@ -6,10 +6,10 @@ body {
 
 .navbar {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     background-color: #333;
     padding: 10px 20px;
+
 }
 
 .logo {
@@ -32,8 +32,12 @@ body {
     text-decoration: none;
     color: white;
     transition: color 0.3s;
+    font-size:40px;
 
 }
+
+
+
 
 .nav-links li a:hover {
     background-color: #ce1010;
