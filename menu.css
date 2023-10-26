@@ -71,9 +71,9 @@ body {
             flex-direction: column;
             background-color: #33333300;
             position: absolute;
-            top: 48px;
+            top: 60px;
             left: 0;
-            right: 50px;
+            right: 0px;
             text-align: right;
         }
 
@@ -93,4 +93,7 @@ body {
         transform: rotate(45deg) translate(-5px, -6px);
     }
 }
+}
+.navbar {
+    justify-content: end;
 }
