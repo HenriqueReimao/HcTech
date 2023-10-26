@@ -6,12 +6,12 @@ body{
 /* Estilo para o container grid */
 .template {
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr; /* Três colunas de larguras iguais */
+    grid-template-columns: 1fr 1fr 1fr; /* Três colunas de larguras iguais */
     grid-template-rows: auto; /* Altura automática para as linhas */
     gap: 20px; /* Espaçamento entre as células */
     grid-template-areas:
         "header header header"
-        ". main ."
+        "main main main"
         "footer footer footer";
     height: 100vh; /* Ocupa a altura inteira da tela */
 }
