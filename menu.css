@@ -9,12 +9,14 @@ body {
     align-items: center;
     background-color: #333;
     padding: 10px 20px;
-
+    justify-content: space-between;
 }
 
-.logo {
-    color: white;
-    font-size: 24px;
+
+
+.Logo{
+    width: 100px;
+    height: 100px;
 }
 
 .nav-links {
@@ -22,6 +24,7 @@ body {
     display: flex;
     margin: 0;
     padding: 0;
+    
 }
 
 .nav-links li {
@@ -33,9 +36,12 @@ body {
     color: white;
     transition: color 0.3s;
     font-size:40px;
-
 }
-
+@media (max-width: 768px) {
+    .nav-links li a {
+        font-size: 20px;
+    }
+}
 
 
 
@@ -97,7 +103,4 @@ body {
         transform: rotate(45deg) translate(-5px, -6px);
     }
 }
-}
-.navbar {
-    justify-content: end;
 }
