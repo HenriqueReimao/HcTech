@@ -32,10 +32,14 @@ body {
     text-decoration: none;
     color: white;
     transition: color 0.3s;
+
 }
 
 .nav-links li a:hover {
-    color: #FFA500;
+    background-color: #ce1010;
+    color:  aliceblue;
+    padding:4px;
+    border-radius: 0.50rem;
 }
 
 .burger {
@@ -65,12 +69,12 @@ body {
         .nav-links.active {
             display: flex;
             flex-direction: column;
-            background-color: #333;
+            background-color: #33333300;
             position: absolute;
             top: 48px;
             left: 0;
-            right: 0;
-            text-align: center;
+            right: 50px;
+            text-align: right;
         }
 
     .burger {
